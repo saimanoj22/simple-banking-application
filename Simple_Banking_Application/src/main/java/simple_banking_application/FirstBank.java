@@ -1,14 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package simple_banking_application;
 
-/**
- *
- * @author DELL
- */
 public class FirstBank {
-    
+    public static void main(String[] args){
+        Account tim = new Account("Sai Manoj", "A00001");
+        tim.start();
+    }
 }
