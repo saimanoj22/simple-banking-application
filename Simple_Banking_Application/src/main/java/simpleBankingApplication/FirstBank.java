@@ -1,4 +1,4 @@
-package simple_banking_application;
+package simpleBankingApplication;
 
 public class FirstBank {
     public static void main(String[] args){

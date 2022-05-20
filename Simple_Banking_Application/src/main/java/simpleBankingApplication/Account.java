@@ -1,4 +1,4 @@
-package simple_banking_application;
+package simpleBankingApplication;
 
 import java.util.Scanner;
 
@@ -97,6 +97,9 @@ public class Account {
         }
         else if(this.previousTransaction < 0){
             System.out.println("Withdrawn: " + Math.abs(this.previousTransaction));
+        }
+        else{
+            System.out.println("No transaction occurred.");
         }
     }
     
